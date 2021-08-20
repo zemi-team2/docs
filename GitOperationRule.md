@@ -1,8 +1,12 @@
+## これは何
+
+チーム内で Git, GitHub を使用する際の決まり事に関するドキュメント。
+
 ## 自然言語
 
 基本的に日本語を使用する。
 
-**例外**
+**【例外】** \
 以下のような場面では例外的に英語を使用する。
 - コミットメッセージの prefix
 - ブランチ名
@@ -26,29 +30,30 @@ feature ブランチと hotfix ブランチは以下のフォーマットで命�
 - hotfix/{Issueの番号}_yyy
 
 例）
+
 - feature/1_set_up_dev_environment
 - feature/47_create_model
 - hotfix/139_fix_layout
 
 ## コミットメッセージ
 
-コミットメッセージには「prefix とその変更を行った理由」を記載する。
-https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e
+コミットメッセージには「prefix とその変更を行った理由」を記載する。 \
+[僕が考える最強のコミットメッセージの書き方](https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e)
 
-コミットメッセージには prefix を付ける。
+コミットメッセージには prefix を付ける。 \
 prefix を統一するための外部アプリケーションとして [Semantic Pull Request](https://github.com/zeke/semantic-pull-requests) を導入する。
 
-フォーマットは以下
-`prefix: 理由`
+以下のフォーマットで命名を行う。 \
+prefix: 理由
 
-**例**
-- `feat: 学習の精度を向上させるため`
-- `fix: レイアウトの崩壊を直すため`
-- `docs: コミュニケーションを円滑にするため`
+例）
+- feat: 学習の精度を向上させるため
+- fix: レイアウトの崩壊を直すため
+- docs: コミュニケーションを円滑にするため
 
 ### コミットの粒度について
 
-コミットは細ければ細かいほど良いという認識で問題ない。
+コミットは細ければ細かいほど良いという認識で問題ない。 \
 ここまで書いたコード・ここまで作った機能を失いたくないと思ったらコミットする。
 
 ## マージ可能条件
