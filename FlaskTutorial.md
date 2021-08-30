@@ -36,12 +36,12 @@ python /sake/backend/src/sample_flask.py
 
 正しく起動すると以下のように表示されます。  
 
-![terminal](./images/flask_terminal_output.jpg)
+![terminal](https://raw.githubusercontent.com/zemi-team2/docs/images/flask_terminal_output.jpg)
 
 ### ３．ブラウザで動作確認
 インターネットブラウザで`127.0.0.1:8000`と入力して以下のように表示されれば、正しく動作しています。  
 
-![browser](./images/flask_browser_output.jpg)
+![browser](https://raw.githubusercontent.com/zemi-team2/docs/images/flask_browser_output.jpg)
 
 ## 補足
 今回、Flaskを起動するために開発環境では8000番ポートを使用しています。  
